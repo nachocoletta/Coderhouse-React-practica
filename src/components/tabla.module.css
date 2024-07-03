@@ -1,0 +1,43 @@
+.contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: aqua;
+  height: 500px;
+  width: 1000px;
+}
+
+.tablaEncabezadoImpar {
+  background-color: black;
+  color: white;
+  text-align: left;
+}
+
+.tablaEncabezadoPar {
+  background-color: grey;
+  color: white;
+  text-align: left;
+}
+
+th {
+  width: 200px;
+  height: 30px;
+  /* Cambiado a 50 píxeles */
+}
+
+
+.parrafoImpar {
+  background-color: grey;
+  color: white;
+  width: 630px;
+  padding: 0px;
+}
+
+.parrafoPar {
+  background-color: black;
+  color: white;
+  width: 700px;
+  padding: 0px;
+}
