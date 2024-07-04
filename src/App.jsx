@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './App.css';
+
 import Tabla from './components/Tabla';
 
 function App() {
@@ -7,10 +7,7 @@ function App() {
 
 	return (
 		<>
-			<div>
-				<h1>PARA LOS QUE QUIERAN MAS</h1>
-				<Tabla />
-			</div>
+			<Tabla />
 		</>
 	);
 }

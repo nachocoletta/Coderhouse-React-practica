@@ -4,7 +4,7 @@
   justify-content: center;
   flex-direction: column;
   height: 100vh;
-  background-color: aqua;
+  /* background-color: aqua; */
   height: 500px;
   width: 1000px;
 }
@@ -33,6 +33,7 @@ th {
   color: white;
   width: 630px;
   padding: 0px;
+  text-align: center;
 }
 
 .parrafoPar {
@@ -40,4 +41,5 @@ th {
   color: white;
   width: 700px;
   padding: 0px;
+  text-align: center;
 }

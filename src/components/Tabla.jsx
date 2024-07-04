@@ -45,7 +45,7 @@ const Tabla = () => {
 								<td>{proveedor.name}</td>
 								<td>{proveedor.email}</td>
 								<td>
-									<Boton />
+									<Boton idBoton={proveedor.name} />
 								</td>
 							</tr>
 						);

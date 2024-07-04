@@ -1,11 +1,11 @@
 import React from 'react';
 import style from './boton.module.css';
-const Boton = () => {
-	const handleClick = () => {
-		alert('Hola');
+const Boton = ({ idBoton }) => {
+	const handleClick = (id) => {
+		alert('Hola ' + id);
 	};
 	return (
-		<button className={style.boton} onClick={handleClick}>
+		<button className={style.boton} onClick={() => handleClick(idBoton)}>
 			Select
 		</button>
 	);
